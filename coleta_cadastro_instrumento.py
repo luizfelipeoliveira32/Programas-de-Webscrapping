@@ -65,7 +65,7 @@ def coleta(data_referencia):
 
 
 # Parâmetro de entrada da função
-data_referencia = "2024-01-23"
+data_referencia = input('Digite a data de coleta: ')
 
 df_resultados = coleta(data_referencia)
 # Exportação dos resultados para um arquivo excel
